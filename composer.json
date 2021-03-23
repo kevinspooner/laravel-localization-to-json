@@ -1,18 +1,23 @@
 {
     "name": "kevinspooner/laravel-localization-to-json",
     "description": "Generate *.json files using existing localization files",
-    "version": "1.0.0",
-    "type": "laravel-extension",
-    "keywords": ["laravel","extension"],
+    "keywords": ["laravel"],
     "authors": [
         {
             "name": "Roman Borisov",
-            "email": "borisska1989@gmail.com"
+            "email": "borisska1989@gmail.com",
+            "role": "Creator"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.2.5",
-        "laravel/framework": "^7.0"
-    }
+        "php": ">=7.0",
+        "laravel/framework": ">=5.4.36|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kevinspooner\\laravel-localization-to-json\\": "src/"
+        }
+    },
+    "prefer-stable": true
 }
