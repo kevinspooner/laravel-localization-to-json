@@ -1,5 +1,5 @@
 {
-    "name": "kevs/laravel-localization-to-json",
+    "name": "kevinspooner/laravel-localization-to-json",
     "description": "Generate *.json files using existing localization files",
     "version": "1.0.0",
     "type": "laravel-extension",
