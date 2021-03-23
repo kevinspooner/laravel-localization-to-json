@@ -1,7 +1,8 @@
 {
     "name": "kevs/laravel-localization-to-json",
     "description": "Generate *.json files using existing localization files",
-    "type": "composer-plugin",
+    "type": "laravel-extension",
+    "keywords": ["laravel","extension"],
     "authors": [
         {
             "name": "Roman Borisov",
@@ -9,5 +10,8 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^7.2.5",
+        "laravel/framework": "^7.0"
+    }
 }
