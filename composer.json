@@ -2,6 +2,7 @@
     "name": "kevinspooner/laravel-localization-to-json",
     "description": "Generate *.json files using existing localization files",
     "keywords": ["laravel"],
+    "license": "Roman Borisov",
     "authors": [
         {
             "name": "Roman Borisov",
